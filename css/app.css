@@ -1,0 +1,42 @@
+body{
+  background-image: url("../assets/images/fondoHome.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#fff !important;
+}
+
+.menu{
+  background: black;
+}
+
+#title{
+  color: yellow;
+  font-size: 30px;
+}
+
+.menu input, .menu select, .menu a, .menu button {
+    margin-bottom: 0;
+    color: #bdbd37;
+}
+
+#color{
+  color:yellow;
+  font-size: 40px;
+  z-index:5;
+  font-weight: bolder;
+  font-family: fantasy;
+}
+.titlePrincipal{
+  text-align: center;
+}
+#pelis{
+  margin-bottom: 80px;
+  text-align: left;
+  margin-left: 50px;
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
