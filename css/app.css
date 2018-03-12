@@ -1,10 +1,12 @@
 body{
-  background-image: url("../assets/images/fondoHome.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color:#fff !important;
+  background-image: url("../assets/images/fondoHome.jpg");
+  background-repeat:repeat-y;
+  background-size:contain;
 }
-
+.imagen{
+    width: 600px;
+    height: 200px;
+}
 .menu{
   background: black;
 }
@@ -28,15 +30,25 @@ body{
 }
 .titlePrincipal{
   text-align: center;
+  margin-bottom: 50px;
 }
 #pelis{
+  margin-top: 20px;
   margin-bottom: 80px;
-  text-align: left;
-  margin-left: 50px;
+  text-align: center;
+  color:yellow;
 }
 div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
     margin: 0;
     padding: 0;
     margin-bottom: 5px;
     padding-bottom: 10px;
+}
+ul{
+    list-style: none;
+}
+.film{
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
 }

@@ -9,24 +9,87 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-    <div class="header">
-      <ul class="menu">
-        <li id= "title" class="menu-text">STAR WARS</li>
-        <li class="category"><a href="#">Películas</a></li>
-        <li class="category"><a href="#">Personajes</a></li>
-        <li class="category"><a href="#">Datos Curiosos</a></li>
-      </ul>
-    </div>
-    <div class="titlePrincipal">
-      <h1 id="color">Lista de pelis de Star Wars</h1>
-    </div>
-    <div id="pelis"></div>
+        <div class="header">
+          <ul class="menu">
+            <li id= "title" class="menu-text">STAR WARS</li>
+            <li class="category"><a href="#">Películas</a></li>
+            <li class="category"><a href="#">Personajes</a></li>
+            <li class="category"><a href="#">Datos Curiosos</a></li>
+          </ul>
+        </div>
+        <div class="titlePrincipal">
+         <img class="imagen" src="./assets/images/titulo.jpg" alt="galaxia">
+        </div>
+        <div class="row">
+            <div class="imagenes small-12 medium-4 large-4 columns">
+                <div class="image1">
+                    <img src="./assets/images/A_new_hope.jpg" alt="">
+                </div>
+                <div class="image1">
+                    <img src="./assets/images/Attack_of_the_Clones.jpg" alt="">
+                </div>
+                <div class="image1">
+                    <img src="./assets/images/Return_of_the_Jedi.jpg" alt="">
+                </div>
+                <div class="image1">
+                    <img src="./assets/images/Revenge of the Sith.jpg" alt="">
+                </div>
+                <div class="image1">
+                    <img src="./assets/images/The_Empire_Strikes_Back.jpg" alt="">
+                </div>
+                <div class="image1">
+                    <img src="./assets/images/The_Force_Awakens.jpg" alt="">
+                </div>
+                <div class="image1">
+                    <img src="./assets/images/The_Phantom_Menace.jpg" alt="">
+                </div>
+                <div class="image1">
+                    <img src="./assets/images/A_new_hope.jpg" alt="">
+                </div>
+                <div class="image1">
+                    <img src="./assets/images/Attack_of_the_Clones.jpg" alt="">
+                </div>
+                <div class="image1">
+                    <img src="./assets/images/Return_of_the_Jedi.jpg" alt="">
+                </div>
+                <div class="image1">
+                    <img src="./assets/images/Revenge of the Sith.jpg" alt="">
+                </div>
+                <div class="image1">
+                    <img src="./assets/images/The_Phantom_Menace.jpg" alt="">
+                </div>
+                <div class="image1">
+                    <img src="./assets/images/A_new_hope.jpg" alt="">
+                </div>
+                <div class="image1">
+                    <img src="./assets/images/Attack_of_the_Clones.jpg" alt="">
+                </div>
+                <div class="image1">
+                    <img src="./assets/images/Return_of_the_Jedi.jpg" alt="">
+                </div>
+                <div class="image1">
+                    <img src="./assets/images/The_Phantom_Menace.jpg" alt="">
+                </div>
+                <div class="image1">
+                    <img src="./assets/images/A_new_hope.jpg" alt="">
+                </div>
+                <div class="image1">
+                    <img src="./assets/images/Attack_of_the_Clones.jpg" alt="">
+                </div>
+            </div>
+            <div class="filmaciones small-12 medium-6 large-6 columns">
+                <div id="pelis" small-12 medium-8 large-8 columns></div>
+            </div>
+        </div>
 
+        <div class="reveal" id="modal" data-reveal>
+          <div class="modalito" id="contmodal">
 
-
-
-
-
+          </div>
+          <button class="close-button" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
