@@ -1,4 +1,9 @@
 Este es el link de la github pages: https://rouss1985.github.io/apiStarW/.
 
-En este ejercicio se cumplen con los requisitos del modal del personaje cons us datos dinamicos a traves de ajax y la imagen se jala de un json local.
-Cabe mencionar que por cuestiones de practicidad solo se encuentran en el json de imagenes los primeros 9 personajes de la primera pelicula.
+Tecnologías utilizadas: AJAX, Jquery,ECMA6, Javascript, API,CSS, HTML, Framework Foundation.
+
+Este ejercicio consiste en el consumo de un API (en este caso se trata de la API de Star Wars), se hizo el consumo de esta a tráves de un llamado AJAX,se obtuvo un JSON como respuesta el cuál se iteró el Array de objetos con diversas funciones para poder obtener datos muy precisos como los nombres de los filmes y los personajes que participan en cada una de ellas. Estos datos se pintan en pantalla con la técnica template string de ECMA6.
+
+En este ejercicio los datos del personaje se pintan de manera dinámica a tráves de ajax y la imagen se jala de un json local.
+Cabe mencionar que por cuestiones de practicidad solo se encuentran en el json de imagenes los primeros 9 personajes de la primera película.
+
