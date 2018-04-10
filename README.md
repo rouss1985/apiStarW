@@ -13,4 +13,4 @@ Este ejercicio consiste en el consumo de un API (en este caso se trata de la API
 En este ejercicio los datos del personaje se pintan de manera dinámica a tráves de ajax y la imagen se jala de un json local.
 Cabe mencionar que por cuestiones de practicidad solo se encuentran en el json de imagenes los primeros 9 personajes de la primera película.
 
-![StarWars](assets/images/SWAPI.png)
+![StarWars](../assets/images/SWAPI.png)
