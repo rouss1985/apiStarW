@@ -1,6 +1,6 @@
-Titulo: apiStarW 
+Titulo: apiStarW
 
-Descripción del proyecto:Proyecto de consumo de la API de Star Wars.Se realiza un consumo de la API a tráves del método AJAX, y cuándo se obtiene la respuesta se itera sobre el JSON para pintar datos en el index a tráves del DOM. 
+Descripción del proyecto:Proyecto de consumo de la API de Star Wars.Se realiza un consumo de la API a tráves del método AJAX, y cuándo se obtiene la respuesta se itera sobre el JSON para pintar datos en el index a tráves del DOM.
 
 Tecnologías utilizadas: HTML, CSS, Grilla.
 
@@ -13,3 +13,4 @@ Este ejercicio consiste en el consumo de un API (en este caso se trata de la API
 En este ejercicio los datos del personaje se pintan de manera dinámica a tráves de ajax y la imagen se jala de un json local.
 Cabe mencionar que por cuestiones de practicidad solo se encuentran en el json de imagenes los primeros 9 personajes de la primera película.
 
+![StarWars](./assets/images/SWAPI.png)
