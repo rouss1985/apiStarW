@@ -1,4 +1,10 @@
-Este es el link de la github pages: https://rouss1985.github.io/apiStarW/.
+Titulo: apiStarW 
+
+Descripción del proyecto:Proyecto de consumo de la API de Star Wars.Se realiza un consumo de la API a tráves del método AJAX, y cuándo se obtiene la respuesta se itera sobre el JSON para pintar datos en el index a tráves del DOM. 
+
+Tecnologías utilizadas: HTML, CSS, Grilla.
+
+Para que empresa fué desarrollado: Laboratoria.
 
 Tecnologías utilizadas: AJAX, Jquery,ECMA6, Javascript, API,CSS, HTML, Framework Foundation.
 
