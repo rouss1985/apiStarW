@@ -1,4 +1,4 @@
-Titulo: apiStarW
+# ApiStarW
 
 Descripción del proyecto:Proyecto de consumo de la API de Star Wars.Se realiza un consumo de la API a tráves del método AJAX, y cuándo se obtiene la respuesta se itera sobre el JSON para pintar datos en el index a tráves del DOM.
 
